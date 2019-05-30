@@ -19,13 +19,13 @@ public class App
     }
     private static Movie createNewMovie(){
         Movie movie=new Movie();
-        movie.setMovieId(1);
-        movie.setMovieName("ABCD");
-        movie.setReleaseYear(2016);
+        movie.setMovieId(2);
+        movie.setMovieName("ABCD2");
+        movie.setReleaseYear(2018);
         movie.setRatings(6.0f);
         Actor actor=new Actor();
-        actor.setActorAge(40);
-        actor.setActorName("Prabhu deva");
+        actor.setActorAge(28);
+        actor.setActorName("Varun");
         actor.setMovieId(movie.getMovieId());
         movie.setActor(actor);
         return movie;
